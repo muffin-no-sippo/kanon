@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <div class="top-img"></div>
+    <div class="bottom-img"></div> 
     <div class="wap">
         <div class="hed">
             <div class="hed__title">
                 <p class="hed__title__catch">オーダーメイドでペットのグッズを作成しています</p>
                 <h1 class="hed__title__logo">
-                    <img src="img/logo.svg" alt="まふぃんのしっぽ">
+                    <img src="img/logo.svg" alt="まふぃんのしっぽ" class="hed__title__logo__img">
                 </h1>
             </div>
             <p class="hed__explanation">趣味の範囲でのんびり趣味で作った作品を<br>紹介・販売しています。みていってくださいみたいな文言</p>
@@ -34,12 +36,12 @@
 
             <section class="concept">
                 <h2 class="concept__title">
-                    <img src="img/concept.png" alt="コンセプト">
+                    <img src="img/concept.png" alt="コンセプト" class="concept__title__img">
                 </h2>
                 <p class="concept__capture">自分の飼い猫とどこでも一緒にお出かけしたい<br>そんな思いで、グッズを作成しました。</p>
                 <div class="concept__img">
                     <ul class="concept__img__area">
-                        <li class="concept__img__area__01">
+                        <li class="concept__img__area__list">
                             <img src="img/img01.png" alt="作品イメージ01" class="concept__img__area__01__sq img-square">
                             <img src="img/img01-1.png" alt="作品イメージ01" class="concept__img__area__01__ci img-circle">
                         </li>
@@ -54,19 +56,34 @@
 
             <section class="works">
                 <h2 class="works__title">
-                    <img src="img/works.png" alt="作品紹介">
+                    <img src="img/works.png" alt="作品紹介" class="works__title__img">
                 </h2>
-                <section class="works__oder">
-                    <h3 class="works__oder__title">オーダーメイドの作品</h3>
-                    <p class="works__oder__capture">飼い猫さんの写真を元に、一個一個丁寧に作成させていただいています</p>
-                    <div class="works__oder__recautions recautions">
-                        <ul class="works__recautions__area">
-                            <li class="works__recautions__area__text">※商品発送までに制作のお時間をいただいています</li>
-                            <li class="works__recautions__area__text">※商品発送までに制作のお時間をいただいています</li>
-                            <li class="works__recautions__area__text">※商品発送までに制作のお時間をいただいています</li>
+                <section class="works__sect">
+                    <h3 class="works__sect__title">オーダーメイドの作品</h3>
+                    <p class="works__sect__capture">飼い猫さんの写真を元に、一個一個丁寧に作成させていただいています</p>
+                    <div class="recautions">
+                        <ul class="recautions__area">
+                            <li class="recautions__area__text">※商品発送までに制作のお時間をいただいています</li>
+                            <li class="recautions__area__text">※商品発送までに制作のお時間をいただいています</li>
+                            <li class="recautions__area__text">※商品発送までに制作のお時間をいただいています</li>
                         </ul>
                     </div>
-                    <div class="works__oder__contnt">
+                    <div class="works__sect__contnt">
+                        <article class="card">
+                            <a href="" class="card__link">
+                                <img src="img/works-oder-img01.png" alt="" class="card__link__img">
+                                <p class="card__link__text">しっぽピアスしっぽピアスしっぽピアス</p>
+                            </a>
+                            <ul class="card__tag">
+                                <li class="card__tag__list">
+                                    <p class="card__tag__list__text">オーダーメイド</p>
+                                </li>
+                                <li class="card__tag__list">
+                                    <p class="card__tag__list__text">ピアス</p>
+                                </li>
+                            </ul>
+                            <div class="card__button"><a href="#" class="card__button__link">minneで購入する</a></div>
+                        </article>
                         <article class="card">
                             <a href="" class="card__link">
                                 <img src="img/works-oder-img01.png" alt="" class="card__link__img">
@@ -80,38 +97,107 @@
                                     <p class="card__tag__list__text">ピアス</p>
                                 </li>
                             </ul>
-                            <div class="card__button"><a href="#" class="">minneで購入する</a></div>
+                            <div class="card__button"><a href="#" class="card__button__link">minneで購入する</a></div>
+                        </article>
+                        <article class="card">
+                            <a href="" class="card__link">
+                                <img src="img/works-oder-img01.png" alt="" class="card__link__img">
+                                <p class="card__link__text">しっぽピアス</p>
+                            </a>
+                            <ul class="card__tag">
+                                <li class="card__tag__list">
+                                    <p class="card__tag__list__text">オーダーメイド</p>
+                                </li>
+                                <li class="card__tag__list">
+                                    <p class="card__tag__list__text">ピアス</p>
+                                </li>
+                            </ul>
+                            <div class="card__button"><a href="#" class="card__button__link">minneで購入する</a></div>
                         </article>
                     </div>
                 </section>
-                <section class="works__hobby">
-
+                <section class="works__sect">
+                    <h3 class="works__sect__title">趣味の作品</h3>
+                    <p class="works__sect__capture">趣味で作った作品です</p>
+                    <div class="recautions">
+                        <ul class="recautions__area">
+                            <li class="recautions__area__text">※在庫がある場合はすぐに発送できます</li>
+                        </ul>
+                    </div>
+                    <div class="works__sect__contnt">
+                        <article class="card">
+                            <a href="" class="card__link">
+                                <img src="img/works-oder-img01.png" alt="" class="card__link__img">
+                                <p class="card__link__text">しっぽピアスしっぽピアスしっぽピアス</p>
+                            </a>
+                            <ul class="card__tag">
+                                <li class="card__tag__list">
+                                    <p class="card__tag__list__text">アクリルたわし</p>
+                                </li>
+                            </ul>
+                            <div class="card__button"><a href="#" class="card__button__link">minneで購入する</a></div>
+                        </article>
+                        <article class="card">
+                            <a href="" class="card__link">
+                                <img src="img/works-oder-img01.png" alt="" class="card__link__img">
+                                <p class="card__link__text">しっぽピアス</p>
+                            </a>
+                            <ul class="card__tag">
+                                <li class="card__tag__list">
+                                    <p class="card__tag__list__text">ピアス</p>
+                                </li>
+                            </ul>
+                            <div class="card__button"><a href="#" class="card__button__link">minneで購入する</a></div>
+                        </article>
+                        <article class="card">
+                            <a href="" class="card__link">
+                                <img src="img/works-oder-img01.png" alt="" class="card__link__img">
+                                <p class="card__link__text">しっぽピアス</p>
+                            </a>
+                            <ul class="card__tag">
+                                <li class="card__tag__list">
+                                    <p class="card__tag__list__text">ピアス</p>
+                                </li>
+                            </ul>
+                            <div class="card__button"><a href="#" class="card__button__link">minneで購入する</a></div>
+                        </article>
+                    </div>
                 </section>
             </section>
 
             <section class="contact">
                 <h2 class="contact__title">
-                    <img src="img/contact.png" alt="お問合せ">
+                    <img src="img/contact.png" alt="お問合せ" class="contact__title__img">
                 </h2>
                 <p class="contact__capture">TwitterのDMまたはminneからご連絡ください</p>
                 <p class="contact__text">ウェブサイト・バナー・紙物等、デザインのご相談も承ります。</p>
-                <div class="contact__timeline"></div>
+                <div class="contact__timeline">
+                    <div class="contact__timeline__area">
+                        <a class="twitter-timeline" href="https://twitter.com/kanon0828_momo?ref_src=twsrc%5Etfw">Tweets by kanon0828_momo</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
                 <div class="contact__button-area">
                     <p class="contact__button-area__text">複数サイトに出品しています<br>下記のどこから連絡いただいても大丈夫です</p>
                     <ul class="contact__button-area__list">
-                        <li class="contact__button-area__list__ltem">
+                        <li class="contact__button-area__list__item">
                             <div class="contact-button contact-button--twitter">
-                                <a href="" class="contact-button__link">Twitter</a>
+                                <a href="" class="contact-button__link">
+                                    <span class="contact-button__link__bold">Twitter</span><br>@kanon0828_momo
+                                </a>
                             </div>
                         </li>
-                        <li class="contact__button-area__list__ltem">
-                            <div class="contact-button contact-button--twitter">
-                                <a href="" class="contact-button__link">Twitter</a>
+                        <li class="contact__button-area__list__item">
+                            <div class="contact-button contact-button--minne">
+                                <a href="" class="contact-button__link">
+                                    <span class="contact-button__link__bold">minne</span><br>KANON0828'S GALLERY
+                                </a>
                             </div>
                         </li>
-                        <li class="contact__button-area__list__ltem">
-                            <div class="contact-button contact-button--twitter">
-                                <a href="" class="contact-button__link">Twitter</a>
+                        <li class="contact__button-area__list__item">
+                            <div class="contact-button contact-button--base">
+                                <a href="" class="contact-button__link">
+                                    <span class="contact-button__link__bold">BASE</span><br>まふぃんのしっぽ
+                                </a>
                             </div>
                         </li>  
                     </ul>
@@ -120,9 +206,9 @@
         </div>
         <footer class="foot">
             <p class="foot__text">作品制作/サイトデザイン：まふぃんのしっぽ（kanon）</p>
-            <small class="foot__c"></small>
+            <small class="foot__c">&copy; 2020 kanon / Designer</small>
         </footer>
-        <div class="&copy; 2020 kanon / Designer"></div>
+        <div class="sns-button"></div>  
     </div>
 </body>
 </html>
