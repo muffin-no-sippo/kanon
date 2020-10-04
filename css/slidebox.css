@@ -1,0 +1,81 @@
+.slide__content {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.slide__content #slide {
+  max-width: 375px;
+  max-height: 408px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide__content #slide::before {
+  content: "";
+  width: 73px;
+  height: 101px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("../img/sp_pic_consept_line.svg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide__content #slide::after {
+  content: "";
+  width: 73px;
+  height: 101px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("../img/sp_pic_consept_line.svg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.slide__content #slide > ul {
+  width: 100%;
+  padding-top: 109%;
+  height: auto;
+}
+
+.slide__content #slide > ul::before {
+  content: "";
+  width: 76px;
+  height: 71px;
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  background-image: url("../img/pic_consept_arrow.svg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide__content #slide > ul > li {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.25));
+}
+
+.slide__content #slide > ul > li > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=slidebox.css.map */

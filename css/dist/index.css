@@ -10,7 +10,6 @@ body {
   /* 枠線 */
   line-height: 1.5;
 }
-
 @media screen and (min-width: 760px) {
   body {
     border-left: 10px solid #c08b00;
@@ -24,25 +23,21 @@ body {
   padding: 40px 15px;
   margin: 0 auto;
 }
-
 .hed {
   position: relative;
   overflow: hidden;
 }
-
 .hed__title__catch {
   font-size: 2rem;
   font-weight: 700;
   color: #c08b00;
 }
-
 .hed__title__logo__img {
   display: block;
   width: 100%;
   height: auto;
   margin: 10px auto;
 }
-
 .hed__explanation {
   margin-top: 20px;
   font-size: 1.4rem;
@@ -51,31 +46,26 @@ body {
 .news {
   margin-top: 30px;
 }
-
 .news__title {
-  font-family: 'Alice', serif;
+  font-family: "Alice", serif;
   font-size: 2.4rem;
   letter-spacing: 4px;
   color: #c08b00;
 }
-
 .news__area {
   background-color: #fff;
   border-radius: 4px;
   border: solid 1px #c08b00;
   width: 100%;
 }
-
 .news__area__link {
   display: block;
   width: 100%;
   padding: 15px;
 }
-
 .news__area__link__details {
   font-weight: 700;
 }
-
 .news__area__link__text {
   margin-top: 10px;
   font-size: 1.2rem;
@@ -90,25 +80,21 @@ body {
   position: relative;
   /*作業まえここから*/
 }
-
 .concept__title__img {
   display: block;
   margin: auto;
   width: 100%;
   height: auto;
 }
-
 .concept__capture {
   margin-top: 10px;
   font-weight: 700;
 }
-
 .concept__img {
   margin-top: 20px;
   width: 100%;
   /*作業まえここまで*/
 }
-
 .concept__img__capture {
   margin-top: 20px;
   font-size: 1.4rem;
@@ -126,34 +112,26 @@ body {
   margin-top: 40px;
   position: relative;
 }
-
 .works__title__img {
   display: block;
   width: 100%;
   height: auto;
 }
-
 .works__sect {
   /*作品カード置き場*/
 }
-
 .works__sect__title {
   margin-top: 20px;
   font-weight: 700;
 }
-
 .works__sect__capture {
   margin-top: 10px;
   font-size: 1.4rem;
 }
-
 .works__sect__contnt {
   margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-right: -2%;
 }
 
@@ -163,7 +141,6 @@ body {
   border-radius: 4px;
   margin-top: 10px;
 }
-
 .recautions__area {
   padding: 15px;
   font-size: 1.2rem;
@@ -182,17 +159,14 @@ body {
   overflow: hidden;
   border-radius: 4px;
 }
-
 .card__link {
   display: block;
 }
-
 .card__link__img {
   display: block;
   width: 100%;
   height: auto;
 }
-
 .card__link__text {
   margin-top: 5px;
   text-align: left;
@@ -203,16 +177,11 @@ body {
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
-
 .card__tag {
   margin-top: 2px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .card__tag__list {
   text-align: left;
   font-size: 1.2rem;
@@ -222,19 +191,15 @@ body {
   border-radius: 2px;
   margin: 1%;
 }
-
 .card__button {
   margin-top: 10px;
   width: 100%;
   background: #e0a60f;
   border: 1px solid #c08b00;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 }
-
 .card__button__link {
   display: block;
   width: 100%;
@@ -248,23 +213,19 @@ body {
   margin-top: 40px;
   position: relative;
 }
-
 .contact__title__img {
   display: block;
   width: 100%;
   height: auto;
 }
-
 .contact__capture {
   margin-top: 20px;
   font-weight: 700;
 }
-
 .contact__text {
   margin-top: 10px;
   font-size: 1.4rem;
 }
-
 .contact__timeline {
   position: relative;
   margin-top: 20px;
@@ -273,12 +234,9 @@ body {
   background-color: #fff;
   padding: 20px 10px;
   border: 1px solid #C08B00;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 .contact__timeline::before {
   content: "";
   display: block;
@@ -291,12 +249,10 @@ body {
   position: absolute;
   top: -15px;
 }
-
 .contact__timeline__area {
   height: 100%;
   overflow: hidden;
 }
-
 .contact__button-area {
   position: relative;
   margin-top: 20px;
@@ -305,13 +261,10 @@ body {
   background-color: #fff;
   padding: 20px 10px;
   border: 1px solid #C08B00;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   /*ボタンリスト*/
 }
-
 .contact__button-area::before {
   content: "";
   display: block;
@@ -324,18 +277,14 @@ body {
   position: absolute;
   top: -15px;
   right: 0;
-  -webkit-transform: scale(-1, 1);
-          transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
-
 .contact__button-area__text {
   font-size: 1.4rem;
 }
-
 .contact__button-area__list {
   margin-top: 10px;
 }
-
 .contact__button-area__list__item {
   margin-top: 15px;
 }
@@ -344,33 +293,27 @@ body {
 .contact-button {
   width: 100%;
   border-radius: 6px;
-  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
-
 .contact-button__link {
   display: block;
   padding: 14px;
   width: 100%;
   font-size: 1.4rem;
 }
-
 .contact-button__link__bold {
   font-size: 1.6rem;
   font-weight: 700;
 }
-
 .contact-button--twitter {
   background-color: #1da1f2;
   color: #fff;
 }
-
 .contact-button--minne {
   background: #f4f3f2;
   border: 1px solid #ddd;
   color: #575756;
 }
-
 .contact-button--base {
   background: #11beae;
   color: #fff;
@@ -379,11 +322,9 @@ body {
 .foot {
   color: #525252;
 }
-
 .foot__text {
   font-size: 1.2rem;
 }
-
 .foot__c {
   font-size: 1rem;
 }
@@ -394,7 +335,6 @@ body {
   height: auto;
   margin-top: 60px;
 }
-
 .sns-button__link {
   display: block;
   margin: 0 auto;
@@ -402,7 +342,6 @@ body {
   bottom: 0;
   right: 15px;
 }
-
 .sns-button__link__img {
   display: block;
   width: 120px;
@@ -433,4 +372,3 @@ body {
   background-color: rgba(255, 255, 255, 0);
   background-image: repeating-linear-gradient(-45deg, transparent, transparent 3px, #c08b00 3px, #c08b00 6px);
 }
-/*# sourceMappingURL=index.css.map */
