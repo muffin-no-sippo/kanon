@@ -18,6 +18,7 @@ body {
     padding: 40px 15px;
     margin: 0 auto;
     @media screen and (min-width: 760px) {
+        max-width: 1040px;
     }
 }
 
@@ -42,16 +43,29 @@ body {
     &__explanation {
         margin-top: 20px;
         font-size: 1.4rem;
+        @media screen and (min-width: 760px) {
+            margin-top: 40px;
+            font-size: 1.6rem;
+        }
     }
 }
 
 .news {
-    margin-top: 30px;
+    margin: 30px auto 0;
+    @media screen and (min-width: 760px) {
+        margin-top: 60px;
+        max-width: 750px;
+        opacity: 1;
+    }
     &__title {
         font-family: 'Alice', serif;
         font-size: 2.4rem;
         letter-spacing: 4px;
         color: #c08b00;
+        @media screen and (min-width: 760px) {
+            font-size: 3rem;
+            background-color: red;
+        }
     }
     &__area {
         background-color: #fff;
@@ -62,6 +76,7 @@ body {
             display: block;
             width: 100%;
             padding: 15px;
+
             &__details {
                 font-weight: 700;
             }

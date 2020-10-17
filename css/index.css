@@ -25,6 +25,12 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 760px) {
+  .wap {
+    max-width: 1040px;
+  }
+}
+
 .hed {
   position: relative;
   overflow: hidden;
@@ -48,8 +54,22 @@ body {
   font-size: 1.4rem;
 }
 
+@media screen and (min-width: 760px) {
+  .hed__explanation {
+    margin-top: 40px;
+    font-size: 1.6rem;
+  }
+}
+
 .news {
-  margin-top: 30px;
+  margin: 30px auto 0;
+}
+
+@media screen and (min-width: 760px) {
+  .news {
+    margin-top: 60px;
+    max-width: 750px;
+  }
 }
 
 .news__title {
@@ -57,6 +77,12 @@ body {
   font-size: 2.4rem;
   letter-spacing: 4px;
   color: #c08b00;
+}
+
+@media screen and (min-width: 760px) {
+  .news__title {
+    font-size: 3rem;
+  }
 }
 
 .news__area {
