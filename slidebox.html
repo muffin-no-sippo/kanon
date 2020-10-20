@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品スライダー</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=M+PLUS+Rounded+1c:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slidebox.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            // 設定
+            // var $width = 320; // 横幅
+            // var $height =300; // 高さ
+            var $interval = 4000; // 切り替わりの間隔（ミリ秒）
+            var $fade_speed = 1000; // フェード処理の早さ（ミリ秒）
+            $("#slide ul li").css({"position":"relative","overflow":"hidden"});//,"width":$width,"height":$height
+            $("#slide ul li").hide().css({"position":"absolute","top":0,"left":0});//"position":"absolute","top":0,"left":0
+            $("#slide ul li:first").addClass("active").show();
+            setInterval(function(){
+                var $active = $("#slide ul li.active");
+                var $next = $active.next("li").length?$active.next("li"):$("#slide ul li:first");
+                $active.fadeOut($fade_speed).removeClass("active");
+                $next.fadeIn($fade_speed).addClass("active");
+            },$interval);
+        });
+    </script>
+</head>
+<body>
+    <div class="slide__content">
+        <div id="slide">
+            <ul>
+                <li><img src="img/sp_img_01.png" alt="" width="" height="" /></li>
+                <li><img src="img/sp_img_02.png" alt="" width="" height="" /></li>
+                <li><img src="img/sp_img_03.png" alt="" width="" height="" /></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

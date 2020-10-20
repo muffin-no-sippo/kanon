@@ -1,0 +1,11 @@
+{
+  "name": "kanon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:muffin-no-sippo/kanon.git",
+  "author": "kanon <muffin.no.sippo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "php -S localhost:8000 -t ./"
+  }
+}

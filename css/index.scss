@@ -1,0 +1,393 @@
+body {
+    background-color: #fcf3e7;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    border-left: 8px solid #c08b00;/* 枠線 */
+    border-right: 8px solid #c08b00;/* 枠線 */
+    line-height: 1.5;
+    @media screen and (min-width: 760px) {
+        border-left: 10px solid #c08b00;/* 枠線 */
+        border-right: 10px solid #c08b00;/* 枠線 */
+    }
+}
+
+
+
+.wap {
+    padding: 40px 15px;
+    margin: 0 auto;
+    @media screen and (min-width: 760px) {
+        max-width: 1040px;
+    }
+}
+
+.hed {
+    position: relative;
+    overflow: hidden;
+    &__title {
+        &__catch {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #c08b00;
+        }
+        &__logo {
+            &__img {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: 10px auto;
+            }
+        }
+    }
+    &__explanation {
+        margin-top: 20px;
+        font-size: 1.4rem;
+        @media screen and (min-width: 760px) {
+            margin-top: 40px;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.news {
+    margin: 30px auto 0;
+    @media screen and (min-width: 760px) {
+        margin-top: 60px;
+        max-width: 750px;
+        opacity: 1;
+    }
+    &__title {
+        font-family: 'Alice', serif;
+        font-size: 2.4rem;
+        letter-spacing: 4px;
+        color: #c08b00;
+        @media screen and (min-width: 760px) {
+            font-size: 3rem;
+            background-color: red;
+        }
+    }
+    &__area {
+        background-color: #fff;
+        border-radius: 4px;
+        border: solid 1px #c08b00;
+        width: 100%;
+        &__link {
+            display: block;
+            width: 100%;
+            padding: 15px;
+
+            &__details {
+                font-weight: 700;
+            }
+            &__text {
+                margin-top: 10px;
+                font-size: 1.2rem;
+                color: #c08b00;
+            }
+        }
+    }
+}
+
+.main {
+    margin: 60px auto;
+}
+.concept {
+    position: relative;
+    &__title {
+        &__img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__capture {
+        margin-top: 10px;
+        font-weight: 700;
+    }
+/*作業まえここから*/
+    &__img {
+        margin-top: 20px;
+        width: 100%;
+        /*作業まえここまで*/
+        &__capture {
+            margin-top: 20px;
+            font-size: 1.4rem;
+        }
+    }
+}
+.img-square {
+    width: 100px;
+}
+.img-circle {
+    width: 100px;
+}
+
+.works {
+    margin-top: 40px;
+    position: relative;
+    &__title {
+        &__img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__sect {
+        &__title {
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        &__capture {
+            margin-top: 10px;
+            font-size: 1.4rem;
+        }
+        /*作品カード置き場*/
+        &__contnt {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -2%;
+            
+        }
+    }
+}
+/*注意事項*/
+.recautions {
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    &__area {
+        padding: 15px;
+        font-size: 1.2rem;
+        color: #525252;
+        text-align: left;
+    }
+}
+/*作品カード*/
+.card {
+    position: relative;
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 4px;
+    &__link {
+        display: block;
+        &__img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        &__text {
+            margin-top: 5px;
+            text-align: left;
+            font-size: 1.4rem;
+            font-weight: 700;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+    }
+    &__tag {
+        margin-top: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        &__list {
+            text-align: left;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #bfb4a5;
+            padding: 2px 4px;
+            border-radius: 2px;
+            margin: 1%;
+        }
+    }
+    &__button {
+        margin-top: 10px;
+        width: 100%;
+        background: #e0a60f;
+        border: 1px solid #c08b00;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        &__link {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.contact {
+    margin-top: 40px;
+    position: relative;
+    &__title {
+        &__img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__capture {
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    &__text {
+        margin-top: 10px;
+        font-size: 1.4rem;
+    }
+    &__timeline {
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        height: 500px;
+        background-color: #fff;
+        padding: 20px 10px;
+        border: 1px solid #C08B00;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+        &::before {
+            content: "";
+            display: block;
+            width: 15px;
+            height: 27px;
+            background-image: url("../img/pic_pin.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top left;
+            position: absolute;
+            top: -15px;
+        }
+        &__area {
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+    &__button-area {
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        padding: 20px 10px;
+        border: 1px solid #C08B00;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+        &::before {
+            content: "";
+            display: block;
+            width: 15px;
+            height: 27px;
+            background-image: url("../img/pic_pin.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top left;
+            position: absolute;
+            top: -15px;
+            right: 0;
+            transform: scale(-1, 1);
+        }
+        &__text {
+            font-size: 1.4rem;
+        }
+        /*ボタンリスト*/
+        &__list {
+            margin-top: 10px;
+            &__item {
+                margin-top: 15px;
+            }
+        }
+        
+
+    }
+}
+/*お問合せボタン*/
+.contact-button {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    &__link {
+        display: block;
+        padding: 14px;
+        width: 100%;
+        font-size: 1.4rem;
+        &__bold {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+    }
+    &--twitter {
+        background-color: #1da1f2;
+        color: #fff;
+    }
+    &--minne {
+        background: #f4f3f2;
+        border: 1px solid #ddd;
+        color: #575756;
+    }
+    &--base {
+        background: #11beae;
+        color: #fff;
+    }
+}
+.foot {
+    color: #525252;
+    &__text {
+        font-size: 1.2rem;
+    }
+    &__c {
+        font-size: 1rem;
+
+    }   
+}
+/*フッター追従ボタン*/
+.sns-button {
+    display: block;
+    height: auto;
+    margin-top: 60px;
+    &__link {
+        display: block;
+        margin: 0 auto;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        &__img {
+            display: block;
+            width: 120px;
+            height: auto;
+        }
+    }
+}
+/*ページ上下の破線*/
+.top-img {
+    width: 100%;
+    height: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-size: auto auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 3px, rgba(192, 139, 0, 1) 3px, rgba(192, 139, 0, 1) 6px );
+}
+.bottom-img {
+    width: 100%;
+    height: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-size: auto auto;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 3px, rgba(192, 139, 0, 1) 3px, rgba(192, 139, 0, 1) 6px );
+}

@@ -1,0 +1,75 @@
+.slide__content {
+    margin-right: -20px;
+    margin-left: -20px;
+    #slide {
+        max-width: 375px;
+        max-height: 408px;
+        margin:0 auto;
+        position:relative;
+        &::before {
+            content: "";
+            width: 73px;
+            height: 101px;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-image: url("../img/sp_pic_consept_line.svg") ;
+            background-position: top left;
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
+        &::after {
+            content: "";
+            width: 73px;
+            height: 101px;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-image: url("../img/sp_pic_consept_line.svg") ;
+            background-position: top left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transform: scale(-1,-1);
+
+        }
+        >ul {
+            width:100%;
+            padding-top: 109%;
+            height: auto;
+            &::before{
+                content: "";
+                width: 76px;
+                height: 71px;
+                display: block;
+                position: absolute;
+                top: 70px;
+                right: 50px;
+                background-image: url("../img/pic_consept_arrow.svg") ;
+                background-position: top left;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            >li {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.25));
+
+                >img {
+                    position:absolute;
+                    left:0;
+                    top:0;
+                    width: 100%;
+                    height: auto;  
+                }
+            }
+        }
+    }
+}
+
